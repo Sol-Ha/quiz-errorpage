@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+@font-face {
+  font-family: GREEN NATURE;
+  src: url(assets/fonts/GREEN\ NATURE.ttf);
+}
+@font-face {
+  font-family: Delius;
+  src: url(assets/fonts/Delius-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: GREEN NATURE;
+  text-align: center;
+}
+body div {
+  margin-bottom: -100px;
+}
+body div img {
+  width: 320px;
+  margin-top: 20px;
+}
+body div div {
+  position: relative;
+  top: -140px;
+}
+body div div :first-child {
+  width: 80px;
+  margin-right: 120px;
+}
+body div div :nth-child(2) {
+  width: 80px;
+}
+body h1 {
+  font-size: 70px;
+}
+body p {
+  font-family: Delius;
+  font-size: 26px;
+  margin-bottom: 27px;
+}
+body button {
+  width: 200px;
+  padding: 10px;
+  top: 100px;
+  background-color: #181818;
+  box-shadow: 0px 4px 4px #676F72;
+  border-radius: 15px;
+  position: relative;
+}
+body button a {
+  color: white;
+  font-family: Inter;
+  font-size: 20px;
+  text-decoration: none;
+}/*# sourceMappingURL=error404.css.map */
